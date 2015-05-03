@@ -2907,7 +2907,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+		
+		<activity android:name=".headsup.HeadsUpSettings" />
+		
         <!-- Weather Service Providers settings -->
         <activity android:name="Settings$WeatherProviderServicesActivity"
                   android:taskAffinity=""
@@ -2928,6 +2930,5 @@
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
         </activity>
-
     </application>
 </manifest>
