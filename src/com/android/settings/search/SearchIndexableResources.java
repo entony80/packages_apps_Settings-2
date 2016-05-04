@@ -343,6 +343,13 @@ public final class SearchIndexableResources {
                         NO_DATA_RES_ID,
                         com.android.settings.cyanogenmod.LockscreenSettingsAlias.class.getName(),
                         R.drawable.ic_settings_lockscreen));
+						
+		sResMap.put(Additions.class.getName(),
+                new SearchIndexableResource(
+                        Ranking.getRankForClassName(Additions.class.getName()),
+                        R.xml.additions_settings,
+                        Additions.class.getName(),
+                        R.drawable.ic_settings_additions));
     }
 
     private SearchIndexableResources() {
