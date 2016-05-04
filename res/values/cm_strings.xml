@@ -777,7 +777,8 @@
     <string name="power_notifications_ringtone_silent">Silent</string>
 
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_title">Statusbar</string>
+	<string name="status_bar_title_summary">Increase the usability and modify your statusbar interface</string>
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <string name="status_bar_notif_count_title">Show notification count</string>
