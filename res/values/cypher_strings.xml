@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 CypherOS
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,16 +14,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/additions_settings_title" >
-
-	<Preference
-        style="?android:preferenceInformationStyle"
-        android:key="additions_policy"
-        android:selectable="false"
-        android:summary="@string/additions_policy_summary"
-        android:title="@string/additions_policy_title" />
-		
-</PreferenceScreen>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+	<!-- Additions -->
+	<string name="additions_settings_title">Additions</string>
+	<string name="additions_policy_title">About</string>
+	<string name="additions_policy_summary">Additions are standalone features that are included in the Android operating system,
+which can be utilized to manipulate how Android works to your level of preference</string>
+</resources>
