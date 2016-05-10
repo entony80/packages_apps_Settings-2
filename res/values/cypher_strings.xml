@@ -21,4 +21,15 @@
 	<string name="additions_policy_title">About</string>
 	<string name="additions_policy_summary">Additions are standalone features that are included in the Android operating system,
 which can be utilized to manipulate how Android works to your level of preference</string>
+
+    <!-- Heads Up Timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+	
 </resources>
