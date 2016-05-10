@@ -4637,7 +4637,8 @@
     <string name="credentials_configure_lock_screen_hint">You need to set a lock screen PIN or password before you can use credential storage.</string>
 
     <!-- Title of Usage Access preference item [CHAR LIMIT=30] -->
-    <string name="usage_access_title">Apps with usage access</string>
+    <string name="usage_access_title">Application access</string>
+	<string name="usage_access_title_summary">Choose which apps that can have pertaining access to your device</string>
 
     <!-- Sound settings screen, setting check box label -->
     <string name="emergency_tone_title">Emergency tone</string>
@@ -6014,6 +6015,7 @@
 
     <!-- Sound & notification > Sound section: Title for the Interruptions option and associated settings page. [CHAR LIMIT=30] -->
     <string name="zen_mode_settings_title" translatable="false">@*android:string/zen_mode_feature_name</string>
+	<string name="zen_mode_settings_title_summary">Choose which apps and activities can not disturb you with inbound notifications</string>
 
     <!-- Sound & notification > Sound section: Title for the Priority interruptions option and associated settings page. [CHAR LIMIT=30] -->
     <string name="zen_mode_priority_settings_title">Priority only allows</string>
@@ -6076,6 +6078,7 @@
 
     <!-- Sound & notification > Notification section: Title for the option managing notifications per application. [CHAR LIMIT=30] -->
     <string name="app_notifications_title">App notifications</string>
+	<string name="app_notifications_title_summary">Customize application priority and visibility for inbound notifications</string>
 
     <!-- Sound & notification > Sound section: Title for the other sounds option and associated settings page. [CHAR LIMIT=30] -->
     <string name="other_sound_settings">Other sounds</string>
@@ -6118,6 +6121,7 @@
 
     <!-- Sound & notification > Advanced section: Title for managing notification listeners option. [CHAR LIMIT=30] -->
     <string name="manage_notification_access_title">Notification access</string>
+	<string name="manage_notification_access_title_summary">Grant which apps can or cannot present notifications</string>
 
     <!-- Summary of preference to manage notification listeners, when none are enabled -->
     <string name="manage_notification_access_summary_zero">Apps cannot read notifications</string>

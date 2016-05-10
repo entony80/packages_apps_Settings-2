@@ -22,14 +22,6 @@
         android:key="display"
         android:title="@string/display_label">
 
-        <!-- Brightness slider -->
-        <PreferenceScreen
-                android:key="brightness"
-                android:title="@string/brightness"
-                settings:keywords="@string/keywords_display_brightness_level">
-            <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
-        </PreferenceScreen>
-
         <!-- Adaptive brightness -->
         <SwitchPreference
                 android:key="auto_brightness"
@@ -50,13 +42,6 @@
                 android:key="display_rotation"
                 android:title="@string/display_rotation_title"
                 android:fragment="com.android.settings.cyanogenmod.DisplayRotation"/>
-
-        <!-- Doze // Ambient display -->
-        <SwitchPreference
-                android:key="doze"
-                android:title="@string/doze_title"
-                android:summary="@string/doze_summary"
-                android:persistent="false" />
 
         <!-- Lift to wake -->
         <SwitchPreference
@@ -115,6 +100,17 @@
                 android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
     </PreferenceCategory>
 
+	<PreferenceCategory
+	        android:key="visualize"
+			android:title="@string/visualize_category_title" />
+			
+	    <!-- Doze // Ambient display -->
+        <SwitchPreference
+                android:key="doze"
+                android:title="@string/doze_title"
+                android:summary="@string/doze_summary"
+                android:persistent="false" />
+	
     <PreferenceCategory
             android:key="interface"
             android:title="@string/category_interface">
@@ -158,24 +154,6 @@
                 android:title="@string/recents_show_searchbar"
                 settings:keywords="@string/keywords_recents_show_searchbar"
                 android:defaultValue="true" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-            android:key="lights"
-            android:title="@string/category_lights">
-
-        <!-- Battery light -->
-        <PreferenceScreen
-                android:key="battery_light"
-                android:title="@string/battery_light_title"
-                android:fragment="com.android.settings.notificationlight.BatteryLightSettings" />
-
-        <!-- Notification lights -->
-        <PreferenceScreen
-                android:key="notification_light"
-                android:title="@string/notification_light_title"
-                android:fragment="com.android.settings.notificationlight.NotificationLightSettings" />
 
     </PreferenceCategory>
 

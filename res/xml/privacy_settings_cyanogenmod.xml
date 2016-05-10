@@ -29,14 +29,6 @@
             android:summary="@string/blacklist_summary"
             android:fragment="com.android.settings.blacklist.BlacklistSettings" />
 
-        <!-- Anonymous statistics - (CMStats) -->
-        <PreferenceScreen
-            android:key="cmstats"
-            android:title="@string/anonymous_statistics_title"
-            android:summary="@string/anonymous_statistics_summary"
-            android:fragment="com.android.settings.cmstats.AnonymousStats" >
-        </PreferenceScreen>
-
         <!-- Protected Apps! -->
         <Preference
             android:key="protected_apps_manager"
@@ -47,4 +39,23 @@
                     android:targetPackage="com.android.settings"
                     android:targetClass="com.android.settings.applications.ProtectedAppsActivity" />
         </Preference>
+		
+		<!-- Application access -->
+		<Preference 
+		    android:key="usage_access"
+            android:title="@string/usage_access_title"
+			android:summary="@string/usage_access_title_summary"
+            android:fragment="com.android.settings.applications.ManageApplications">
+                <extra
+                    android:name="classname"
+                    android:value="com.android.settings.Settings$UsageAccessSettingsActivity" />
+        </Preference>
+		
+		<!-- Notification access -->
+        <Preference
+            android:key="manage_notification_access"
+            android:title="@string/manage_notification_access_title"
+			android:summary="@string/manage_notification_access_title_summary"
+            android:persistent="false"
+            android:fragment="com.android.settings.notification.NotificationAccessSettings" />
 </PreferenceScreen>

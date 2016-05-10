@@ -285,6 +285,7 @@
 
     <!-- Battery light settings -->
     <string name="battery_light_title">Battery light</string>
+	<string name="battery_light_title_summary">Choose whether the LED will pulse when the battery is low</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
     <string name="battery_light_list_title">Colors</string>
     <string name="battery_light_low_color_title">Battery low</string>
@@ -293,6 +294,7 @@
 
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Notification light</string>
+	<string name="notification_light_title_summary">Choose which apps will trigger the LED pulse when notifications are inbound</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_applist_title">Apps</string>
     <string name="notification_light_phonelist_title">Phone</string>
@@ -1026,6 +1028,7 @@
                  <b>Last update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
     <string name="category_sounds">Sounds</string>
     <string name="notification_manager">Notifications</string>
+	<string name="notification_manager_summary">Change the way notifications are presented and choose which apps will have access</string>
     <string name="lockscreen_settings">Lock screen</string>
     <string name="category_lights">Lights</string>
     <string name="category_volume">Volume</string>
