@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+package com.android.settings.cypher.fragments;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -151,6 +152,7 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
+        return MetricsLogger.DONTTRACKMEBRO;
     }
 
 
