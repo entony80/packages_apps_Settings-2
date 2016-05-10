@@ -45,8 +45,6 @@
         <item>@string/heads_up_snooze_30min</item>
         <item>@string/heads_up_snooze_45min</item>
         <item>@string/heads_up_snooze_60min</item>
-		<string name="force_headsup_title">Force heads up</string>
-        <string name="force_headsup_summary">Force heads up in all applications</string>
     </string-array>
 
     <string-array name="heads_up_snooze_values" translatable="false">
