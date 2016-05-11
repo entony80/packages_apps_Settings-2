@@ -63,4 +63,6 @@ which can be utilized to manipulate how Android works to your level of preferenc
     <string name="volume_steps_7">7</string>
     <string name="volume_steps_5">5</string>
 
+	<string name="visualize_category_title">Visualize</string>
+	
 </resources>
