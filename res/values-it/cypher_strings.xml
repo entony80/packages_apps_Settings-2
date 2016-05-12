@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+	<!-- Additions -->
+	<string name="additions_settings_title">Aggiunte</string>
+	<string name="additions_policy_title">About</string>
+	<string name="additions_policy_summary">Le aggiunte sono caratteristiche autonome che sono inclusi nel sistema operativo Android, che possono essere utilizzati per manipolare il lavoro di Android per il vostro livello di preferenza</string>
+
+    <!-- Heads Up Timeout -->
+    <string name="heads_up_time_out_title">Timeout schermo</string>
+    <string name="heads_up_time_out_summary">Notifiche mostrate per <xliff:g id="number">%d</xliff:g> secondi</string>
+    <string name="heads_up_time_out_2sec">2 secondi</string>
+    <string name="heads_up_time_out_4sec">4 secondi</string>
+    <string name="heads_up_time_out_5sec">5 secondi</string>
+    <string name="heads_up_time_out_6sec">6 secondi</string>
+    <string name="heads_up_time_out_8sec">8 secondi</string>
+    <string name="heads_up_time_out_10sec">10 secondi</string>
+	
+	<!-- Heads Up Snooze -->
+    <string name="heads_up_snooze">Snooze</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze è disabilitato</string>
+    <string name="heads_up_snooze_summary">Le notifiche non verranno mostrate per i prossimi <xliff:g id="number">%d</xliff:g> minuti</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minuti</string>
+    <string name="heads_up_snooze_10min">10 minuti</string>
+    <string name="heads_up_snooze_15min">15 minuti</string>
+    <string name="heads_up_snooze_20min">20 minuti</string>
+    <string name="heads_up_snooze_30min">30 minuti</string>
+    <string name="heads_up_snooze_45min">45 minuti</string>
+    <string name="heads_up_snooze_60min">60 minuti</string>
+    <string name="force_headsup_title">Forza heads up</string>
+    <string name="force_headsup_summary">Forza heads up in tute le app</string>
+	
+	<!-- Volume Steps -->
+    <string name="volume_steps_title">Livelli volume</string>
+    <string name="volume_steps_alarm_title">Livello del volume: Allarme</string>
+    <string name="volume_steps_dtmf_title">Livello del volume: DTMF</string>
+    <string name="volume_steps_music_title">Livello del volume: Musica</string>
+    <string name="volume_steps_notification_title">Livello del volume: Notifica</string>
+    <string name="volume_steps_ring_title">Livello del volume: Suoneria</string>
+    <string name="volume_steps_system_title">Livello del volume: Sistema</string>
+    <string name="volume_steps_voice_call_title">Livello del volume: Chiamata vocale</string>
+    <string name="volume_steps_reset">Ripritina</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+
+	<string name="visualize_category_title">Visualizza</string>
+	
+</resources>
