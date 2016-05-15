@@ -787,7 +787,7 @@
     <string name="volume_keys_control_ring_stream_summary_off">Volume keys control media volume</string>
 
     <string name="category_calibration">Calibration</string>
-    <string name="display_and_lights">Display &amp; lights</string>
+    <string name="display_and_lights">Display</string>
 
     <!-- Category title for Charging sounds (Power state change) specific Settings.
          [CHAR LIMIT=40] -->
@@ -1051,7 +1051,7 @@
         <![CDATA[<b>Total contributors:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Total commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Last update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="category_sounds">Sounds</string>
+    <string name="category_sounds">Sound &amp; notifcations</string>
     <string name="notification_manager">Notifications</string>
 	<string name="notification_manager_summary">Change the way notifications are presented and choose which apps will have access</string>
     <string name="lockscreen_settings">Lock screen</string>
