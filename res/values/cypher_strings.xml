@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2016 CypherOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 	<string name="additions_settings_title">Additions</string>
 	<string name="additions_policy_title">About</string>
 	<string name="additions_policy_summary">Additions are standalone features that are included in the Android operating system,
-which can be utilized to manipulate how Android works to your level of preference</string>
+which can be utilized to manipulate how Android and CypherOS can work to your level of preference</string>
 
     <!-- Heads Up Timeout -->
     <string name="heads_up_time_out_title">Time out</string>
