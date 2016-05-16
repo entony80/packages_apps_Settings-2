@@ -13,10 +13,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
-	<!-- Additions -->
-	<string name="additions_settings_title">Aggiunte</string>
-	<string name="additions_policy_title">About</string>
-	<string name="additions_policy_summary">Le aggiunte sono caratteristiche autonome che sono inclusi nel sistema operativo Android, che possono essere utilizzati per manipolare il lavoro di Android per il vostro livello di preferenza</string>
+    <!-- Additions -->
+    <string name="additions_settings_title">Aggiunte</string>
+    <string name="additions_policy_title">About</string>
+    <string name="additions_policy_summary">Le aggiunte sono caratteristiche autonome che sono inclusi nel sistema operativo Android, che possono essere utilizzati per manipolare il lavoro di Android per il vostro livello di preferenza</string>
 
     <!-- Heads Up Timeout -->
     <string name="heads_up_time_out_title">Timeout schermo</string>
@@ -28,9 +28,8 @@
     <string name="heads_up_time_out_8sec">8 secondi</string>
     <string name="heads_up_time_out_10sec">10 secondi</string>
 	
-	<!-- Heads Up Snooze -->
+    <!-- Heads Up Snooze -->
     <string name="heads_up_snooze">Snooze</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze è disabilitato</string>
     <string name="heads_up_snooze_summary">Le notifiche non verranno mostrate per i prossimi <xliff:g id="number">%d</xliff:g> minuti</string>
     <string name="heads_up_snooze_1min">1 minuto</string>
     <string name="heads_up_snooze_5min">5 minuti</string>
@@ -42,8 +41,8 @@
     <string name="heads_up_snooze_60min">60 minuti</string>
     <string name="force_headsup_title">Forza heads up</string>
     <string name="force_headsup_summary">Forza heads up in tute le app</string>
-	
-	<!-- Volume Steps -->
+
+    <!-- Volume Steps -->
     <string name="volume_steps_title">Livelli volume</string>
     <string name="volume_steps_alarm_title">Livello del volume: Allarme</string>
     <string name="volume_steps_dtmf_title">Livello del volume: DTMF</string>
@@ -60,6 +59,93 @@
     <string name="volume_steps_7">7</string>
     <string name="volume_steps_5">5</string>
 
-	<string name="visualize_category_title">Visualizza</string>
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Display ambiente</string>
+    <string name="doze_settings_title">Opzioni avanzate Doze</string>
+    <string name="doze_timeout_title">Tempo di impulso doze</string>
+    <string name="doze_timeout_summary">È il tempo dello schermo che rimane acceso per impulso di notifica</string>
+    <string name="doze_trigger_pickup_title">Scegliere un gesto di avvio</string>
+    <string name="doze_trigger_pickup_summary_on">Doze sarà attivato dal gesto evento del sensore</string>
+    <string name="doze_trigger_pickup_summary_off">Pick up sensore gesto non sarà  utilizzato come un meccanismo di attivazione</string>
+    <string name="doze_trigger_sigmotion_title">Movimento significativo di avvio</string>
+    <string name="doze_trigger_sigmotion_summary_on">Doze sarà attivato dagli eventi del sensore di movimento significativo</string>
+    <string name="doze_trigger_sigmotion_summary_off">Sensore di movimento significativo non sarà utilizzato come un meccanismo di attivazione</string>
+    <string name="doze_trigger_notification_title">Avvio notifica</string>
+    <string name="doze_trigger_notification_summary_on">Doze sarà attivato dalle notifiche</string>
+    <string name="doze_trigger_notification_summary_off">Le notifiche non saranno utilizzati come obbiettivo</string>
+    <string name="doze_schedule_title">Programma di doze</string>
+    <string name="doze_schedule_summary_on">Doze ripete gli intervalli che (di norma [1s, 10s, 30s, 60s, 120s]) saranno utilizzati (predefinito)</string>
+    <string name="doze_schedule_summary_off">Doze sarà avviato solo una volta per ogni notifica</string>
+    <string name="doze_brightness_title">Livello di luminosità doze</string>
+    <string name="doze_brightness_summary">Livello di luminosità di avvio dello schermo (% massimo consentito luminosità )</string>
 	
-</resources>
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">Personalizzare i controlli PA Pie 2.0, stile, dimensione e colore</string>
+    <string name="pa_pie_control_title">Pie controllo</string>
+    <string name="pa_pie_control_title_summary">Crea i collegamenti personalizzati con caratteristiche utili di produttività</string>
+    <string name="pa_pie_control_enable_title">Abilita controllo Pie</string>
+    <string name="pa_pie_targets_title">Azioni Pie</string>
+    <string name="pa_pie_style_title">Stile Pie</string>
+    <string name="pa_pie_menu_title">Mostra sempre il pulsante del menù</string>
+    <string name="pa_pie_menu_summary">Il tasto menù dovrebbe essere sempre indicato, anche quando non necessario</string>
+    <string name="pa_pie_size_title">Dimensioni Pie</string>
+    <string name="pa_pie_size_summary">Definisce le dimensioni dei controlli del Pie</string>
+    <string name="pa_pie_size_small">Piccolo</string>
+    <string name="pa_pie_size_default">@string/pa_pie_mode_default</string>
+    <string name="pa_pie_size_large">Grande</string>
+    <string name="pa_pie_size_gigantic">Gigantesco</string>
+    <string name="pa_pie_size_monster">Mostro</string>
+    <string name="pa_pie_size_enormous">Enorme</string>
+    <string name="pa_pie_mode_default">Predefinito</string>
+    <string name="pa_pie_gravity_title">Posizione Pie</string>
+    <string name="pa_pie_gravity_summary">Selezionare la posizione in cui verrà collocato il Pie</string>
+    <string name="pa_pie_gravity_bottom">Parte inferiore</string>
+    <string name="pa_pie_gravity_right">Destra</string>
+    <string name="pa_pie_gravity_left">Sinistra</string>
+    <string name="pa_pie_gap_title">Distanza</string>
+    <string name="pa_pie_gap_summary">Regola la distanza che separa gli elementi nel Pie</string>
+    <string name="pa_pie_angle_title">Angolo Pie</string>
+    <string name="pa_pie_angle_summary">Regola l\'angolo dei bordi del Pie al distacco</string>
+    <string name="pa_pie_angle_none">Nessuno (predefinito)</string>
+    <string name="pa_pie_angle_small">Piccolo</string>
+    <string name="pa_pie_angle_big">Normale (predefinito)</string>
+    <string name="pa_pie_angle_huge">Grande</string>
+    <string name="pa_pie_angle_super">Enorme</string>
+    <string name="pa_pie_gap_none">Nessuna</string>
+    <string name="pa_pie_gap_small">Piccolo</string>
+    <string name="pa_pie_gap_big">Grande (predefinito)</string>
+    <string name="pa_pie_gap_huge">Enorme</string>
+    <string name="pa_pie_mode_title">Modalità Pie</string>
+    <string name="pa_pie_mode_summary">Gestire la modalità di animazione e la velocità di avvio</string>
+    <string name="pa_pie_mode_bare">Velocissimo</string>
+    <string name="pa_pie_mode_quick">Veloce</string>
+    <string name="pa_pie_mode_default">Predefinito</string>
+    <string name="pa_pie_mode_slow">Lento</string>
+    <string name="pa_pie_lastapp_title">Ultima App</string>
+    <string name="pa_pie_lastapp_summary">Abilita il pulsante ultima App</string>
+    <string name="pa_pie_killtask_title">Termina App</string>
+    <string name="pa_pie_killtask_summary">Abilita il pulsante termina App</string>
+    <string name="pa_pie_notifications_title">Notifiche</string>
+    <string name="pa_pie_notifications_summary">Pulsante notifiche attivo</string>
+    <string name="pa_pie_settings_panel_title">Pannello impostazioni rapide</string>
+    <string name="pa_pie_settings_panel_summary">Abilita per espandere le impostazioni rapide dal tasto del pannello Pie</string>
+    <string name="pa_pie_screenshot_title">Immagine dello schermo</string>
+    <string name="pa_pie_screenshot_summary">Abilita il pulsante per lo screenshot</string>
+    <string name="pa_pie_color_title">Impostazioni colore Pie</string>
+    <string name="pa_pie_color_style_title">Abilita colori Pie</string>
+    <string name="pa_pie_background_title">Colore di sfondo</string>
+    <string name="pa_pie_select_title">Colore pulsanti</string>
+    <string name="pa_pie_outlines_title">Colore contorno pulsanti</string>
+    <string name="pa_pie_status_clock_title">Colore orologio</string>
+    <string name="pa_pie_status_title">Colore info</string>
+    <string name="pa_pie_chevron_title">Colore bordo esterno</string>
+    <string name="pa_pie_juice_title">Colore batteria</string>
+    <string name="pa_pie_button_color">Colore pulsante</string>
+    <string name="pa_pie_button_color_title">Colore pulsanti</string>
+
+    <string name="reset_cypher">Cypher</string>
+    <string name="reset_android">Android</string>
+
+    <string name="visualize_category_title">Visualizza</string>
+    
+    </resources>
